@@ -1,9 +1,8 @@
 GOLANG SYNTAX
 ==================
-##### Syntax - Defined - Variable types
-
-Variable types
-------
+Syntax - Defined - Variable types
+----------
+### Variable types
 - `bool`
 
 - `string`
@@ -19,13 +18,11 @@ Variable types
 
 - `complex64 complex128` ????
 
-Defined syntax
-------
+### Defined syntax
 - `variableName variableType`
 - `variableName variableType = value`
 
-Syntax
-------
+### Syntax
 - Forget `;` in code ? it okay, golang don't need it
 - Import
 ```
@@ -37,11 +34,10 @@ import(
 )
 ```
 
-###### What golang can do ?
+What golang can do ?
+----
 
-
-Multiple Results
----------
+### Multiple Results
 
 ```
 func swap(x, y string) (string, string) {
@@ -54,8 +50,7 @@ func main() {
 }
 ```
 
-Named return values
-----------
+### Named return values
 
 ```
 func split(sum int) (x, y int) {
@@ -68,8 +63,7 @@ func main() {
 	fmt.Println(split(17))
 }
 ```
-Variable default value
-------
+### Variable default value
 
 - If one variable had declare without value, it will had a default value 
 ```
@@ -82,8 +76,7 @@ func main() {
 ```
 - Result: `0 0 false`
 
-Variable init
--------
+### Variable init
 
 - Much variable can init value in one line with different value
 ```
@@ -96,8 +89,7 @@ func main() {
 ```
 - Result: `1 2 true false no`
 
-Short variable declarations
---------
+### Short variable declarations
 
 - Like python, variable in golang no need a type to declare
 ```
@@ -108,8 +100,7 @@ func main() {
 ```
 - Result: `3` and k now is `int`
 
-Get type and value
--------
+### Get type and value
 
 var (
 	ToBe   bool       = false
@@ -129,10 +120,11 @@ Type: uint64 Value: 18446744073709551615
 Type: complex128 Value: (2+3i)
 ```
 
-####### Basic syntax
+Basic syntax
+------------
 
-Type convert
------
+### Type convert
+
 
 ```
 func main() {
@@ -144,8 +136,8 @@ func main() {
 ```
 - Result: `3 4 5`
 
-Constants
-------
+### Constants
+
 
 ```
 const Pi = 3.14
@@ -165,8 +157,8 @@ Hello 世界
 Happy 3.14 Day
 Go rules? true
 ```
-
-##### Keyword
+ Keyword
+--------------
 
 ```
 break        default      func         interface    select
@@ -176,8 +168,8 @@ const        fallthrough  if           range        type
 continue     for          import       return       var
 ```
 
-####### Operators and punctuation
-
+ Operators and punctuation
+------
 ```
 +    &     +=    &=     &&    ==    !=    (    )
 -    |     -=    |=     ||    <     <=    [    ]
