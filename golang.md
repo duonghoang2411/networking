@@ -23,6 +23,7 @@ Defined syntax
 ------
 - `variableName variableType`
 - `variableName variableType = value`
+
 Syntax
 ------
 - Forget `;` in code ? it okay, golang don't need it
@@ -37,9 +38,11 @@ import(
 ```
 
 What golang can do ?
-#####
+#########
+
 Multiple Results
 ---------
+
 ```
 func swap(x, y string) (string, string) {
 	return y, x
@@ -50,8 +53,10 @@ func main() {
 	fmt.Println(a, b)
 }
 ```
+
 Named return values
 ----------
+
 ```
 func split(sum int) (x, y int) {
 	x = sum * 4 / 9
@@ -65,6 +70,7 @@ func main() {
 ```
 Variable default value
 ------
+
 - If one variable had declare without value, it will had a default value 
 ```
 func main() {
@@ -75,8 +81,10 @@ func main() {
 }
 ```
 - Result: `0 0 false`
+
 Variable init
 -------
+
 - Much variable can init value in one line with different value
 ```
 var i, j int = 1, 2
@@ -87,8 +95,10 @@ func main() {
 }
 ```
 - Result: `1 2 true false no`
+
 Short variable declarations
 --------
+
 - Like python, variable in golang no need a type to declare
 ```
 func main() {
@@ -119,8 +129,10 @@ Type: complex128 Value: (2+3i)
 
 Basic syntax
 ##########
+
 Type convert
 -----
+
 ```
 func main() {
 	var x, y int = 3, 4
@@ -130,8 +142,10 @@ func main() {
 }
 ```
 - Result: `3 4 5`
+
 Constants
 ------
+
 ```
 const Pi = 3.14
 
@@ -153,6 +167,7 @@ Go rules? true
 
 Keyword
 ##########
+
 ```
 break        default      func         interface    select
 case         defer        go           map          struct
@@ -163,6 +178,7 @@ continue     for          import       return       var
 
 Operators and punctuation
 ##########
+
 ```
 +    &     +=    &=     &&    ==    !=    (    )
 -    |     -=    |=     ||    <     <=    [    ]
