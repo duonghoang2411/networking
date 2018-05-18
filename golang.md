@@ -1,7 +1,7 @@
 GOLANG SYNTAX
 ==================
-Syntax - Defined - Variable types
-#######
+##### Syntax - Defined - Variable types
+
 Variable types
 ------
 - `bool`
@@ -37,8 +37,8 @@ import(
 )
 ```
 
-What golang can do ?
-#########
+###### What golang can do ?
+
 
 Multiple Results
 ---------
@@ -107,8 +107,10 @@ func main() {
 }
 ```
 - Result: `3` and k now is `int`
+
 Get type and value
 -------
+
 var (
 	ToBe   bool       = false
 	MaxInt uint64     = 1<<64 - 1
@@ -127,8 +129,7 @@ Type: uint64 Value: 18446744073709551615
 Type: complex128 Value: (2+3i)
 ```
 
-Basic syntax
-##########
+####### Basic syntax
 
 Type convert
 -----
@@ -165,8 +166,7 @@ Happy 3.14 Day
 Go rules? true
 ```
 
-Keyword
-##########
+##### Keyword
 
 ```
 break        default      func         interface    select
@@ -176,8 +176,7 @@ const        fallthrough  if           range        type
 continue     for          import       return       var
 ```
 
-Operators and punctuation
-##########
+####### Operators and punctuation
 
 ```
 +    &     +=    &=     &&    ==    !=    (    )
